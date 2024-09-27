@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;  
+    height: auto;
+}
+
+h1{
+    font-family: serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: initial;
+    font-family:  "Sofia", sans-serif;
+    color: blue;
+    background-color: bisque; 
+    text-align: center;
+    text-decoration-line: underline; /* underline text*/
+    text-decoration-color: black;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px red;
+    
+}
+
+h1:hover
+{
+    color: red;
+}
+
+body{
+    background-image: url(css_img.png);
+    opacity: 0.8;    /*to make it tranparent*/
+    background-repeat: repeat-x;           /*repeat img horizontally*/
+    background-repeat: no-repeat; 
+
+    background-origin: border-box;
+    background-size: 1700px;
+    
+   
+    }
+
+    p.box
+    {
+        text-align: justify;
+        text-indent: 50px;
+        letter-spacing: -1px;
+        line-height: 2;
+        border: 1px solid;
+        border-radius: 1%;
+        margin-top: 50px;
+        padding: 50px;
+        box-shadow: 20px 20px 20px;
+    }
